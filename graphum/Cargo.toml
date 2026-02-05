@@ -1,0 +1,17 @@
+[package]
+name = "graphum"
+version = "0.3.0"
+edition = "2024"
+license = "AGPL-3.0-only"
+description = "Safe wrappers around OGDF planarity routines via ogdf-sys."
+readme = "README.md"
+
+[dependencies]
+ogdf-sys = { path = "../ogdf-sys", version = "0.3.0" }
+
+autocxx = "0.30"
+cxx = "1"
+
+[dev-dependencies]
+rand = "0.9"
+rustworkx-core = "0.17"

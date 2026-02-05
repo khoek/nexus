@@ -1,0 +1,18 @@
+[package]
+name = "ogdf-sys"
+version = "0.3.0"
+edition = "2024"
+links = "ogdf"
+license = "GPL-2.0-only OR GPL-3.0-only"
+description = "Unsafe Rust bindings to the OGDF graph drawing library built with autocxx."
+readme = "README.md"
+
+[dependencies]
+autocxx = "0.30"
+cxx = "1"
+
+[build-dependencies]
+autocxx-build = "0.30"
+cc = "1"
+flate2 = "1"
+tar = "0.4"
