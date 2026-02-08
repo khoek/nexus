@@ -1,11 +1,12 @@
 [package]
 name = "ogdf-sys"
-version = "0.3.0"
+version = "0.3.1"
 edition = "2024"
 links = "ogdf"
 license = "GPL-2.0-only OR GPL-3.0-only"
 description = "Unsafe Rust bindings to the OGDF graph drawing library built with autocxx."
 readme = "README.md"
+repository = "https://github.com/khoek/nexus"
 
 [dependencies]
 autocxx = "0.30"
