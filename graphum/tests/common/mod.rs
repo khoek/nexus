@@ -1,6 +1,6 @@
 #![allow(dead_code)]
 
-use rand::{Rng, SeedableRng, rngs::StdRng};
+use rand::{RngExt, SeedableRng, rngs::StdRng};
 use rustworkx_core::{petgraph::graph::UnGraph, planar::is_planar};
 use std::collections::{HashMap, HashSet};
 

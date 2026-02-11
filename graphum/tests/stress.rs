@@ -1,7 +1,7 @@
 mod common;
 
 use common::{edges_random, mask_from_spqr, mk_edges};
-use rand::{Rng, seq::IndexedRandom};
+use rand::{RngExt, seq::IndexedRandom};
 use std::collections::HashSet;
 
 use graphum::spqr::PlanarSubgraph;

@@ -14,5 +14,5 @@ autocxx = "0.30"
 cxx = "1"
 
 [dev-dependencies]
-rand = "0.9"
+rand = "0.10"
 rustworkx-core = "0.17"
