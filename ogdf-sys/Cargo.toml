@@ -13,6 +13,7 @@ autocxx = "0.30"
 cxx = "1"
 
 [build-dependencies]
+syntheon = { version = "0.3" }
+
 autocxx-build = "0.30"
 cc = "1"
-syntheon = { version = "0.3.0" }
