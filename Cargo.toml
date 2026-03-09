@@ -21,6 +21,3 @@ inherits = "release"
 codegen-units = 1
 lto = "fat"
 debug = true
-
-[patch.crates-io]
-syntheon = { path = "../caudex/syntheon" }
