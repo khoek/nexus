@@ -1,16 +1,16 @@
 [package]
 name = "ogdf-sys"
-version = "0.3.2"
-edition = "2024"
+version.workspace = true
+edition.workspace = true
 links = "ogdf"
 license = "GPL-2.0-only OR GPL-3.0-only"
 description = "Unsafe Rust bindings to the OGDF graph drawing library built with autocxx."
 readme = "README.md"
-repository = "https://github.com/khoek/nexus"
+repository.workspace = true
 
 [dependencies]
-autocxx = "0.30"
-cxx = "1"
+autocxx = { workspace = true }
+cxx = { workspace = true }
 
 [build-dependencies]
 syntheon = { version = "0.3" }

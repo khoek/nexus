@@ -1,17 +1,17 @@
 [package]
 name = "graphum"
-version = "0.3.2"
-edition = "2024"
+version.workspace = true
+edition.workspace = true
 license = "AGPL-3.0-only"
 description = "Safe wrappers around OGDF planarity routines via ogdf-sys."
 readme = "README.md"
-repository = "https://github.com/khoek/nexus"
+repository.workspace = true
 
 [dependencies]
-ogdf-sys = { path = "../ogdf-sys", version = "0.3" }
+ogdf-sys = { workspace = true }
 
-autocxx = "0.30"
-cxx = "1"
+autocxx = { workspace = true }
+cxx = { workspace = true }
 
 [dev-dependencies]
 rand = "0.10"
