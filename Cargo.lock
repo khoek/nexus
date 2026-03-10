@@ -1276,8 +1276,6 @@ dependencies = [
 [[package]]
 name = "syntheon"
 version = "0.3.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "04d93f355e7eba48107bd9e8f93abf2253b3068dc89261645ddcf90db76d2a3f"
 dependencies = [
  "flate2",
  "fs2",

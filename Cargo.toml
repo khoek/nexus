@@ -13,6 +13,8 @@ repository = "https://github.com/khoek/nexus"
 [workspace.dependencies]
 ogdf-sys = { path = "ogdf-sys", version = "0.3" }
 
+syntheon = { version = "0.3.2" }
+
 autocxx = "0.30"
 cxx = "1"
 
