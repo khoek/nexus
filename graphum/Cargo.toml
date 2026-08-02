@@ -15,4 +15,4 @@ cxx = { workspace = true }
 
 [dev-dependencies]
 rand = "0.10"
-rustworkx-core = "0.17"
+rustworkx-core = "0.18"
